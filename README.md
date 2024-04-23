@@ -217,7 +217,7 @@ $$
 \end{pmatrix})
 $$
 
-The softmax of $-\infin$ is 0, so a real set of values may look like,
+The softmax of $-\infty$ is 0, so a real set of values may look like,
 
 $$
 \text{softmax}(A) = \begin{pmatrix}
