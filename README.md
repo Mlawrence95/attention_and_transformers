@@ -331,3 +331,7 @@ The left "tower" in this famous image is an encoder, while the right is a decode
 
 
  **Takeaway: Uses encoded context data (if available) to generate new outputs via cross-attention.**
+
+# References
+
+TODO: Add sources for all borrow content (images are not mine!)
