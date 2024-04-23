@@ -253,7 +253,7 @@ $$
 
 Where $\text{weights}_i$ is the row of time-wise weights at time $i$ and $V^j$ is the `Values` column across time $j$. Thus the weights apply masking forward in time if necessary, and form a new value as a weighted average of all old embeddings across time.
 
-$C_i$, the $i$th row of the new matrix, is the attention weights for time $i$ applied to all columns of the original `Values`.
+$C_i$, the $ith$ row of the new matrix, is the attention weights for time $i$ applied to all columns of the original `Values`.
 
 
 Using the old example,
@@ -299,7 +299,7 @@ Imagine we are doing a translation task. In this instance there is an encoded in
 
 Perhaps most miraculous of all is that the sequence representations in both inputs can be from different modalities.
 
-![](https://www.researchgate.net/publication/376080892/figure/fig2/AS:11431281208451256@1701416260519/Visualization-of-cross-attention-maps-estimated-by-Stable-Diffusion-The-redder-pixels.png)
+![](images/cross_attn.png)
 
 Pictured: Cross attention weights between image patches and language tokens. The heatmap for some words, like furry or bike, produce significant weight in the image patch attention weights!
 
